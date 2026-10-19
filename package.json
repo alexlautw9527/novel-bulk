@@ -1,0 +1,35 @@
+{
+  "name": "novel-bulk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "novel-bulk": "./bin/novel-bulk.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build:web": "vite build",
+    "dev:web": "vite",
+    "cli": "tsx src/cli/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.1.5",
+    "cheerio": "^1.2.0",
+    "hono": "^4.13.13",
+    "jszip": "^3.10.2",
+    "opencc-js": "^1.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}

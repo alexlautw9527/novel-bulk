@@ -1,0 +1,6 @@
+node_modules
+.cache
+output
+dist
+.env
+.full-run.log
